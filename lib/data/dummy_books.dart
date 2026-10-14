@@ -1,0 +1,70 @@
+import '../models/book.dart';
+
+const List<Book> dummyBooks = [
+  Book(
+    title: 'The Secret Garden',
+    author: 'Frances Hodgson Burnett',
+    description:
+        'A lonely girl discovers a hidden garden and, with the help of '
+        'new friends, brings it back to life.',
+    language: 'English',
+    year: 1911,
+    pages: 272,
+    status: BookStatus.reading,
+    progress: 62,
+  ),
+  Book(
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    description: 'A practical guide to building good habits and breaking bad ones.',
+    language: 'English',
+    year: 2018,
+    pages: 320,
+    status: BookStatus.finished,
+  ),
+  Book(
+    title: 'The Alchemist',
+    author: 'Paulo Coelho',
+    description: 'A shepherd boy travels in search of a treasure and his destiny.',
+    language: 'English',
+    year: 1988,
+    pages: 208,
+    status: BookStatus.finished,
+  ),
+  Book(
+    title: 'Deep Work',
+    author: 'Cal Newport',
+    description: 'Rules for focused success in a distracted world.',
+    language: 'English',
+    year: 2016,
+    pages: 304,
+    status: BookStatus.saved,
+  ),
+  Book(
+    title: 'Laskar Pelangi',
+    author: 'Andrea Hirata',
+    description: 'The story of ten children and their teachers in a small village school.',
+    language: 'Indonesian',
+    year: 2005,
+    pages: 529,
+    status: BookStatus.saved,
+  ),
+  Book(
+    title: 'Bumi Manusia',
+    author: 'Pramoedya A. Toer',
+    description: 'A story of love and colonial society in the Dutch East Indies.',
+    language: 'Indonesian',
+    year: 1980,
+    pages: 535,
+    status: BookStatus.saved,
+  ),
+  Book(
+    title: 'Negeri 5 Menara',
+    author: 'Ahmad Fuadi',
+    description: 'Six boys chase their dreams at a boarding school.',
+    language: 'Indonesian',
+    year: 2009,
+    pages: 423,
+    status: BookStatus.saved,
+  ),
+];
